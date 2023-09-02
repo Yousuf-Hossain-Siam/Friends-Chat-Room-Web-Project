@@ -1,0 +1,30 @@
+{
+  "name": "Friends Chat Room",
+  "version": "1.0.0",
+  "description": "a real time chat app with socket.io and express",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.18.1",
+    "joi": "^17.2.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.0",
+    "nodemailer": "^6.4.11",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "apps",
+    "socket.io",
+    "node",
+    "js"
+  ],
+  "author": "Yousuf Hossain Siam",
+  "license": "GUB"
+}

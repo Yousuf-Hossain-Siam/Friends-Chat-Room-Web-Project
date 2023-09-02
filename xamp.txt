@@ -1,0 +1,2 @@
+cd /opt/
+sudo chmod 755 /opt/lampp/htdocs/
